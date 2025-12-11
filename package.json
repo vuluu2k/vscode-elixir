@@ -4,7 +4,7 @@
   "description": "Elixir support for VSCode",
   "keywords": ["Elixir", "syntax"],
   "version": "1.1.0",
-  "publisher": "mjmcloug",
+  "publisher": "vuluu2k",
   "icon": "images/logo.png",
   "main": "./out/src/elixirMain",
   "license": "MIT",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fr1zle/vscode-elixir.git"
+    "url": "https://github.com/vuluu2k/vscode-elixir.git"
   },
   "bugs": {
-    "url": "https://github.com/fr1zle/vscode-elixir/issues"
+    "url": "https://github.com/vuluu2k/vscode-elixir/issues"
   },
-  "homepage": "https://github.com/fr1zle/vscode-elixir",
+  "homepage": "https://github.com/vuluu2k/vscode-elixir",
   "categories": ["Languages"],
   "activationEvents": ["onLanguage:elixir"],
   "emmet.syntaxProfiles": {
@@ -157,7 +157,6 @@
   "scripts": {
     "vscode:prepublish": "tsc -p ./",
     "compile": "tsc -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "node ./node_modules/vscode/bin/test",
     "build": "vsce package",
     "lint": "tslint --project ."
@@ -167,7 +166,7 @@
     "typescript": "^2.1.0",
     "mocha": "^2.3.3",
     "vsce": "^1.22.0",
-    "vscode": "^1.1.4",
+    "@types/vscode": "1.15.0",
     "@types/node": "^6.0.40",
     "@types/mocha": "^2.2.32"
   }
